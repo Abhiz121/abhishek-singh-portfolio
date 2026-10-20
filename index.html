@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abhishek Singh — Graphic Designer &amp; Digital Creator</title>
+  
+  <!-- Premium Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css?v=1.7">
+</head>
+<body>
+  <!-- Preloader Screen -->
+  <div id="loader" class="loader">
+    <div class="loader-content">
+      <div class="loader-glow"></div>
+      <div class="loader-title">LOADING ASSETS</div>
+      <div class="loader-bar-container">
+        <div id="loader-bar" class="loader-bar"></div>
+      </div>
+      <div class="loader-status">
+        <span id="loader-percent">0%</span>
+        <span id="loader-count">0 / 240</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Fixed Background Canvas Animation -->
+  <div class="canvas-viewport">
+    <canvas id="animation-canvas"></canvas>
+    <div class="canvas-ambient-overlay"></div>
+  </div>
+
+  <!-- Scrollable Portfolio UI Content -->
+  <div class="content-wrapper">
+
+    <!-- Top Navigation Bar -->
+    <header class="top-nav">
+      <div class="brand-meta">
+        <span class="brand-line">GRAPHIC DESIGNER</span>
+        <span class="brand-line">DIGITAL CREATOR</span>
+      </div>
+      <div class="status-indicator">
+        <span>AVAILABLE FOR HIRE &amp; FREELANCE</span>
+        <span class="sparkle-red">✦</span>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <!-- Huge PORTFOLIO Backdrop Typography -->
+      <div class="hero-backdrop-title" aria-hidden="true">PORTFOLIO</div>
+
+      <div class="hero-grid">
+        <!-- Hero Left Column -->
+        <div class="hero-left">
+          <div class="hero-script">Hi, I'm</div>
+          <h1 class="hero-name">
+            <span>ABHISHEK</span>
+            <span>SINGH</span>
+          </h1>
+          <h2 class="hero-subheading">GRAPHIC DESIGNER &amp; VIDEO EDITOR</h2>
+          <p class="hero-description">
+            I design and edit visually striking graphics and videos that combine creativity with strategy. Passionate about strong composition, smooth motion, and the details that make a difference.
+          </p>
+          <div class="hero-badge">
+            <svg class="badge-icon" viewBox="0 0 180 160" fill="currentColor">
+              <path fill-rule="evenodd" d="M 102 11 L 66 12 L 49 21 L 36 38 L 32 52 L 32 65 L 36 77 L 43 89 L 53 98 L 62 103 L 73 106 L 86 106 L 98 103 L 110 96 L 118 88 L 127 71 L 128 38 L 126 34 L 118 32 L 108 23 Z M 104 59 L 100 70 L 92 78 L 84 81 L 72 80 L 70 77 L 98 59 Z M 80 36 L 80 40 L 66 66 L 60 69 L 56 59 L 60 47 L 70 37 L 74 35 Z" />
+            </svg>
+            <span>AVAILABLE WORLDWIDE</span>
+          </div>
+        </div>
+
+        <!-- Center Spacer (Showcases the animated background subject) -->
+        <div class="hero-center-spacer"></div>
+
+        <!-- Hero Right Column -->
+        <div class="hero-right">
+          <div class="hero-quote-pill">
+            <div class="sparkle-circle">
+              <span>✦</span>
+            </div>
+            <p class="quote-text">Turning ideas into powerful digital experiences.</p>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat-card">
+              <span class="stat-num">3+</span>
+              <span class="stat-txt">YEARS<br>EXPERIENCE</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">200+</span>
+              <span class="stat-txt">PROJECTS<br>COMPLETED</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">20+</span>
+              <span class="stat-txt">HAPPY<br>CLIENTS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Graphic Projects Section -->
+    <section id="projects" class="projects-section">
+      <div class="section-top-bar">
+        <h2 class="section-title">GRAPHIC PROJECTS</h2>
+        <div class="section-divider-line"></div>
+        <a href="graphic-projects.html" class="section-action-link">
+          <span>VIEW ALL PROJECTS</span>
+          <span class="action-arrow">→</span>
+        </a>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Project 01: Omnix -->
+        <article class="project-card">
+          <div class="project-preview">
+            <img src="assets/omnix_magazine.jpg" alt="OMNIX Fashion Magazine Project" class="img-pos-top" loading="lazy">
+          </div>
+          <div class="project-details">
+            <div class="project-index">01</div>
+            <div class="project-headers">
+              <h3 class="project-title">OMNIX</h3>
+              <p class="project-type">FASHION MAGAZINE</p>
+            </div>
+            <div class="project-arrow-wrap">→</div>
+          </div>
+        </article>
+
+        <!-- Project 02: Bridal Advertisement -->
+        <article class="project-card">
+          <div class="project-preview">
+            <img src="assets/bridal_ad.jpg" alt="Bridal Advertisement Project" class="img-pos-bridal" loading="lazy">
+          </div>
+          <div class="project-details">
+            <div class="project-index">02</div>
+            <div class="project-headers">
+              <h3 class="project-title">BRIDAL</h3>
+              <p class="project-type">ADVERTISEMENT</p>
+            </div>
+            <div class="project-arrow-wrap">→</div>
+          </div>
+        </article>
+
+        <!-- Project 03: Juice UI -->
+        <article class="project-card">
+          <div class="project-preview">
+            <img src="assets/juice_ui.jpg" alt="JUICE UI User Interface Project" class="img-pos-top" loading="lazy">
+          </div>
+          <div class="project-details">
+            <div class="project-index">03</div>
+            <div class="project-headers">
+              <h3 class="project-title">JUICE UI</h3>
+              <p class="project-type">USER INTERFACE</p>
+            </div>
+            <div class="project-arrow-wrap">→</div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Video Projects Section -->
+    <section id="video-projects" class="projects-section">
+      <div class="section-top-bar">
+        <h2 class="section-title">VIDEO PROJECTS</h2>
+        <div class="section-divider-line"></div>
+        <a href="#video-projects" class="section-action-link">
+          <span>VIEW ALL PROJECTS</span>
+          <span class="action-arrow">→</span>
+        </a>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Video Project 01: The 24 Times Podcast Edit -->
+        <article class="project-card video-card" data-video-url="https://youtu.be/LbiCfH3mZtE?si=pChLlPy3AO4ZHFIs" onclick="window.open('https://youtu.be/LbiCfH3mZtE?si=pChLlPy3AO4ZHFIs', '_blank', 'noopener,noreferrer');" role="link" tabindex="0">
+          <div class="project-preview">
+            <img src="assets/podcast_edit.jpg" alt="The 24 Times Podcast Edit" loading="lazy">
+            <div class="video-play-overlay">
+              <div class="play-btn-circle">
+                <span class="play-triangle">▶</span>
+              </div>
+            </div>
+            <span class="video-duration-badge">YOUTUBE</span>
+          </div>
+          <div class="project-details">
+            <div class="project-index">01</div>
+            <div class="project-headers">
+              <h3 class="project-title">THE 24 TIMES</h3>
+              <p class="project-type">PODCAST EDIT</p>
+            </div>
+            <div class="project-arrow-wrap">↗</div>
+          </div>
+        </article>
+
+        <!-- Video Project 02: DigiSensy Commercial Ad -->
+        <article class="project-card video-card" data-video-url="https://www.instagram.com/reel/DYKpVPGzLpY/?utm_source=ig_web_copy_link&amp;xtok=MzRlODBiNWFlZA==&amp;srtk=MzRlODBiNWFlZA==" onclick="window.open('https://www.instagram.com/reel/DYKpVPGzLpY/?utm_source=ig_web_copy_link&amp;xtok=MzRlODBiNWFlZA==&amp;srtk=MzRlODBiNWFlZA==', '_blank', 'noopener,noreferrer');" role="link" tabindex="0">
+          <div class="project-preview">
+            <img src="assets/digisensy_ad.jpg" alt="DigiSensy Commercial Ad" class="img-pos-digisensy" loading="lazy">
+            <div class="video-play-overlay">
+              <div class="play-btn-circle">
+                <span class="play-triangle">▶</span>
+              </div>
+            </div>
+            <span class="video-duration-badge">REEL</span>
+          </div>
+          <div class="project-details">
+            <div class="project-index">02</div>
+            <div class="project-headers">
+              <h3 class="project-title">DIGISENSY</h3>
+              <p class="project-type">COMMERCIAL AD</p>
+            </div>
+            <div class="project-arrow-wrap">↗</div>
+          </div>
+        </article>
+
+        <!-- Video Project 03: Gaming YT Shorts -->
+        <article class="project-card video-card" data-video-url="https://youtube.com/shorts/CsyrJ-SEuhY?si=XyIyNHtENkYesxfY" onclick="window.open('https://youtube.com/shorts/CsyrJ-SEuhY?si=XyIyNHtENkYesxfY', '_blank', 'noopener,noreferrer');" role="link" tabindex="0">
+          <div class="project-preview">
+            <img src="assets/gaming_shorts.jpg" alt="Gaming YT Shorts" loading="lazy">
+            <div class="video-play-overlay">
+              <div class="play-btn-circle">
+                <span class="play-triangle">▶</span>
+              </div>
+            </div>
+            <span class="video-duration-badge">SHORTS</span>
+          </div>
+          <div class="project-details">
+            <div class="project-index">03</div>
+            <div class="project-headers">
+              <h3 class="project-title">GAMING</h3>
+              <p class="project-type">YT SHORTS</p>
+            </div>
+            <div class="project-arrow-wrap">↗</div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Education & Skills / Work Process / Quote Section -->
+    <section id="experience" class="experience-process-section">
+      <!-- Column 1: Education & Skills -->
+      <div class="panel-column edu-skills-panel">
+        <h2 class="panel-main-heading">EDUCATION &amp; SKILLS</h2>
+
+        <div class="panel-block">
+          <span class="panel-sub-label">EDUCATION</span>
+          
+          <div class="edu-entry">
+            <div class="edu-left">
+              <h4 class="edu-degree">B.Tech. in Information Technology</h4>
+              <p class="edu-institution">BBDNIIT, Lucknow</p>
+            </div>
+            <div class="edu-right">2021 - 2025</div>
+          </div>
+
+          <div class="edu-entry">
+            <div class="edu-left">
+              <h4 class="edu-degree">UI/UX Design Certification</h4>
+              <p class="edu-institution">Great Learning</p>
+            </div>
+            <div class="edu-right">2023</div>
+          </div>
+        </div>
+
+        <div class="panel-block">
+          <span class="panel-sub-label">SKILLS</span>
+          <div class="skills-flex-wrap">
+            <span class="skill-pill">GRAPHIC DESIGN</span>
+            <span class="skill-pill">VIDEO EDITING</span>
+            <span class="skill-pill">PHOTOSHOP</span>
+            <span class="skill-pill">PREMIERE PRO</span>
+            <span class="skill-pill">AFTER EFFECTS</span>
+            <span class="skill-pill">CANVA</span>
+            <span class="skill-pill">FIGMA</span>
+            <span class="skill-pill">ILLUSTRATOR</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Column 2: Work Process -->
+      <div class="panel-column work-process-panel">
+        <h2 class="panel-main-heading">WORK PROCESS</h2>
+        
+        <div class="process-list">
+          <!-- Step 01 -->
+          <div class="process-item">
+            <span class="step-num-code">01</span>
+            <div class="step-icon-bubble">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </div>
+            <div class="step-content">
+              <h4 class="step-title">DISCOVER</h4>
+              <p class="step-desc">Understanding the brand, target audience, goals, and design requirements.</p>
+            </div>
+          </div>
+
+          <!-- Step 02 -->
+          <div class="process-item">
+            <span class="step-num-code">02</span>
+            <div class="step-icon-bubble">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+              </svg>
+            </div>
+            <div class="step-content">
+              <h4 class="step-title">RESEARCH</h4>
+              <p class="step-desc">Exploring competitors, visual trends, and creative inspiration.</p>
+            </div>
+          </div>
+
+          <!-- Step 03 -->
+          <div class="process-item">
+            <span class="step-num-code">03</span>
+            <div class="step-icon-bubble">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9 18h6"></path>
+                <path d="M10 22h4"></path>
+                <path d="M12 2a7 7 0 0 0-7 7c0 3 2 5.5 3 7h8c1-1.5 3-4 3-7a7 7 0 0 0-7-7z"></path>
+              </svg>
+            </div>
+            <div class="step-content">
+              <h4 class="step-title">CONCEPT</h4>
+              <p class="step-desc">Developing unique ideas, mood boards, and visual directions.</p>
+            </div>
+          </div>
+
+          <!-- Step 04 -->
+          <div class="process-item">
+            <span class="step-num-code">04</span>
+            <div class="step-icon-bubble">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path>
+              </svg>
+            </div>
+            <div class="step-content">
+              <h4 class="step-title">DESIGN</h4>
+              <p class="step-desc">Crafting impactful visuals with thoughtful typography, colors, and layouts.</p>
+            </div>
+          </div>
+
+          <!-- Step 05 -->
+          <div class="process-item">
+            <span class="step-num-code">05</span>
+            <div class="step-icon-bubble">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+              </svg>
+            </div>
+            <div class="step-content">
+              <h4 class="step-title">DELIVER</h4>
+              <p class="step-desc">Finalizing, refining, and exporting polished designs ready to make an impact.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Column 3: Crimson Quote Card -->
+      <div class="panel-column quote-card-panel">
+        <div class="quote-card-inner">
+          <div class="quote-card-backdrop">
+            <img src="assets/quote_card.jpg?v=1.7" alt="Red Textured Fluted Card" class="quote-bg-img">
+          </div>
+          <div class="quote-card-body">
+            <div class="quote-large-mark">“</div>
+            <blockquote class="quote-statement">
+              Good design is not just how it looks, but how it works.
+            </blockquote>
+            <div class="quote-signature">Abhishek</div>
+            <div class="quote-footer">
+              <span class="quote-footer-text">LET'S CREATE SOMETHING GREAT TOGETHER.</span>
+              <span class="quote-plus-icon">+</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Let's Work Together / Contact Section -->
+    <section id="contact" class="contact-section">
+      <!-- Left: Heading and CTA -->
+      <div class="contact-col contact-cta-block">
+        <h2 class="contact-heading">
+          <span>LET'S WORK</span>
+          <span class="with-sparkle">TOGETHER <span class="red-sparkle">✦</span></span>
+        </h2>
+        <p class="contact-subtext">
+          I'm currently open for new projects and collaborations. Let's create something amazing that drives results.
+        </p>
+        <a href="mailto:as1311757@gmail.com" class="freelance-pill-btn">
+          <span class="btn-arrow-ring">→</span>
+          <span class="btn-label">AVAILABLE FOR HIRE &amp; FREELANCE</span>
+        </a>
+      </div>
+
+      <!-- Center: Contact Info List -->
+      <div class="contact-col contact-info-block">
+        <a href="mailto:as1311757@gmail.com" class="contact-row">
+          <div class="contact-ring-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+          </div>
+          <span class="contact-val">as1311757@gmail.com</span>
+        </a>
+
+        <a href="https://www.youtube.com/@singhspot" target="_blank" rel="noopener" class="contact-row">
+          <div class="contact-ring-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="2" y1="12" x2="22" y2="12"></line>
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+            </svg>
+          </div>
+          <span class="contact-val">singhspot</span>
+        </a>
+
+        <a href="tel:+918303679982" class="contact-row">
+          <div class="contact-ring-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+          </div>
+          <span class="contact-val">+91 8303679982</span>
+        </a>
+
+        <div class="contact-row">
+          <div class="contact-ring-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+          </div>
+          <span class="contact-val">Lucknow, Uttar Pradesh</span>
+        </div>
+      </div>
+
+      <!-- Right: Laptop Mockup -->
+      <div class="contact-col contact-laptop-block">
+        <div class="laptop-media-card">
+          <img src="assets/laptop_2x.jpg" alt="Abhishek Singh Portfolio on Laptop" class="laptop-device-img">
+        </div>
+      </div>
+    </section>
+
+    <!-- Brand New Footer Component -->
+    <footer class="site-footer">
+      <div class="footer-top-grid">
+        <!-- Footer Brand Column -->
+        <div class="footer-brand-box">
+          <div class="footer-brand-title">ABHISHEK SINGH</div>
+          <div class="footer-badge-pill">
+            <span class="pulse-indicator"></span>
+            <span>AVAILABLE FOR SELECT COLLABORATIONS</span>
+          </div>
+          <p class="footer-brand-bio">
+            Crafting visually striking designs and cinematic video experiences that bring ideas to life. Blending creative storytelling, bold aesthetics, and seamless motion to create impactful visual content.
+          </p>
+        </div>
+
+        <!-- Navigation Links Column -->
+        <div class="footer-links-box">
+          <h4 class="footer-heading">NAVIGATION</h4>
+          <ul class="footer-nav-list">
+            <li><a href="#hero">Overview</a></li>
+            <li><a href="graphic-projects.html">Graphic Projects</a></li>
+            <li><a href="#video-projects">Video Projects</a></li>
+            <li><a href="#experience">Skills &amp; Process</a></li>
+            <li><a href="mailto:as1311757@gmail.com">Get In Touch</a></li>
+          </ul>
+        </div>
+
+        <!-- Social Connections Column -->
+        <div class="footer-links-box">
+          <h4 class="footer-heading">CONNECT</h4>
+          <ul class="footer-social-list">
+            <li>
+              <a href="https://www.linkedin.com/in/abhishek-singh-1a94b028b" target="_blank" rel="noopener noreferrer">
+                <span>LinkedIn</span>
+                <span class="footer-arrow-icon">↗</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/Abhiz121" target="_blank" rel="noopener noreferrer">
+                <span>GitHub</span>
+                <span class="footer-arrow-icon">↗</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.behance.net/80277fd0" target="_blank" rel="noopener noreferrer">
+                <span>Behance</span>
+                <span class="footer-arrow-icon">↗</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/@Singhspot" target="_blank" rel="noopener noreferrer">
+                <span>Youtube</span>
+                <span class="footer-arrow-icon">↗</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Location & Status Column -->
+        <div class="footer-links-box">
+          <h4 class="footer-heading">HEADQUARTERS</h4>
+          <div class="footer-meta-detail">
+            <span class="meta-label">Location:</span>
+            <span class="meta-value">Lucknow, Uttar Pradesh</span>
+          </div>
+          <div class="footer-meta-detail">
+            <span class="meta-label">Timezone:</span>
+            <span class="meta-value">UTC +05:30 (IST)</span>
+          </div>
+          <div class="footer-meta-detail">
+            <span class="meta-label">Inquiries:</span>
+            <span class="meta-value">as1311757@gmail.com</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Bottom Rule & Copyright -->
+      <div class="footer-bottom-bar">
+        <div class="footer-copy-text">
+          &copy; 2026 <span class="highlight-white">Abhishek Singh</span>. Crafted with precision &amp; passion.
+        </div>
+        <button id="back-to-top" class="back-to-top-btn" aria-label="Back to Top">
+          <span>BACK TO TOP</span>
+          <span class="top-arrow-symbol">↑</span>
+        </button>
+      </div>
+    </footer>
+
+  <!-- Project Full-View Lightbox Modal -->
+  <div id="project-modal" class="project-modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-backdrop"></div>
+    <div class="modal-dialog">
+      <button id="modal-close-btn" class="modal-close-btn" aria-label="Close modal">
+        <span class="close-icon">✕</span>
+      </button>
+      <div class="modal-content-wrap">
+        <div class="modal-image-holder">
+          <img id="modal-img" src="" alt="Project Full Image View">
+        </div>
+        <div class="modal-info-bar">
+          <div class="modal-info-left">
+            <span id="modal-num" class="modal-num">01</span>
+            <div class="modal-titles">
+              <h3 id="modal-title" class="modal-title">OMNIX</h3>
+              <p id="modal-category" class="modal-category">FASHION MAGAZINE</p>
+            </div>
+          </div>
+          <span class="modal-badge">COMPLETE VIEW</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js?v=1.6"></script>
+</body>
+</html>

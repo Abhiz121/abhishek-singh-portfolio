@@ -1,0 +1,13 @@
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+
+# Temporary / obsolete files
+/frames/
+/scratch/
+03ee5b6c9dc3969b8027d3b677167a6d.jpg
